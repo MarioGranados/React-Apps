@@ -1,2 +1,2 @@
 # MarioGranados.github.io
-my portfolio
+This is my portfolio that I made using REACT
