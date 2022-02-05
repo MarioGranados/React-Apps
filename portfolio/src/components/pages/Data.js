@@ -1,6 +1,5 @@
 import Pie from "./Pie";
 
-
 export const firstObj = {
     lgBackground: false,
     title: 'Who am I?',

@@ -2,52 +2,52 @@
 function Portfolio() {
     return (
         <div className="jumbotron">
-            <div className="container">
-                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-                    <ol className="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
-                                <h5>Coffee Project</h5>
-                                <p>This Web Application filters through a list of coffees, and can modify the list using
-                                    the
-                                    DOM's Local Storage</p>
+                <div className="container">
+                    <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+                        <ol className="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" >
+                                <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..." data-aos="fade-left"/>
+                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                    <h5>Coffee Project</h5>
+                                    <p>This Web Application filters through a list of coffees, and can modify the list using
+                                        the
+                                        DOM's Local Storage</p>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                    <h5>Konami Code</h5>
+                                    <p>You enter a code in a specific sequence to unlock a fake website.</p>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                    <h5>Web Application</h5>
+                                    <p>A web application that recieves weather data of any desired location by using Mapbox
+                                        API,
+                                        and Weathermap API.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="carousel-item">
-                            <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
-                                <h5>Konami Code</h5>
-                                <p>You enter a code in a specific sequence to unlock a fake website.</p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
-                                <h5>Web Application</h5>
-                                <p>A web application that recieves weather data of any desired location by using Mapbox
-                                    API,
-                                    and Weathermap API.</p>
-                            </div>
-                        </div>
+                        <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                                data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                                data-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Next</span>
+                        </button>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
-                            data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
-                            data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </button>
                 </div>
-            </div>
         </div>
 
     );

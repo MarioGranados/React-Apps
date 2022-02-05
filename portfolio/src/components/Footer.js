@@ -6,7 +6,7 @@ function Footer() {
             <div className="bg-dark text-white">
                 <div className="container">
                     <div className="row p-5">
-                        <div className="col">
+                        <div className="col" data-aos="fade-up">
                             <div className="display-4">Mario Granados</div>
                             <div className="text-muted">Full-Stack Developer</div>
                             <div className="lead">
@@ -20,7 +20,7 @@ function Footer() {
                             </div>
 
                         </div>
-                        <div className="col">
+                        <div className="col" data-aos="fade-up">
                             <form>
                                 <div className="form-row">
                                     <div className="form-group col-md-6">
