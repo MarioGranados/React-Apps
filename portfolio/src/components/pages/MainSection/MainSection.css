@@ -17,6 +17,5 @@
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 1, 0.28);
     border-radius: 20px;
     background-image: linear-gradient(var(--red-bg), var(--red-bg));
-    width: 80%;
     margin: auto;
 }

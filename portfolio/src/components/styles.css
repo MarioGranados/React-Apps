@@ -22,3 +22,25 @@
 .space_bg {
     background-color: var(--space-bg);
 }
+
+.red-text {
+    color: var(--red-bg);
+}
+.green-text {
+    color: var(--green-bg);
+}
+.light-text {
+    color: var(--background-lg);
+
+}
+.blue-text {
+    color: var(--blue-bg);
+}
+
+.space-text {
+    color: var(--space-bg);
+}
+
+.border-color-red > input , .border-color-red > textarea , .border-color-red > button{
+    border-color: var(--red-bg);
+}
