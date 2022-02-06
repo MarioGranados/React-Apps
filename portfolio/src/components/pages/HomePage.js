@@ -3,6 +3,7 @@ import Hero from '.././Hero.js';
 import Portfolio from "./Portfolio";
 import {firstObj, secObj, thirdObj} from './Data'
 import MainSection from "./MainSection/MainSection";
+import '../styles.css'
 function HomePage() {
     return (
         <>

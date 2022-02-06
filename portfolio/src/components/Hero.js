@@ -11,14 +11,14 @@ function Hero({lgBackground, title, contentText, picture, img, alt, left, table,
 
     return (
         <>
-                <div className={lgBackground ? 'text-white my-0 bg_color jumbotron my-0' : "bg-light jumbotron my-0"}>
+                <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0" }>
                     <div className="my-0">
                         <div className="row">
-                            <div className='col-6' data-aos={'fade-up'}>
+                            <div className='col-6' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                                 <div className={left ? 'display-4' : 'display-4 text-right'}>{title}</div>
                                 <div className={left ? 'text-left' : 'text-right'}>{contentText}</div>
                             </div>
-                            <div className="col-6" data-aos={'fade-up'}>
+                            <div className="col-6" data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                                 {hasImg(picture)}
                             </div>
                         </div>

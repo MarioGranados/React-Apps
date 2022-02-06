@@ -1,7 +1,7 @@
 import React from 'react';
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light nav_bg_color">
+        <nav className="navbar navbar-expand-lg navbar-light green_bg">
             <a className="navbar-brand" href="#">Mario Granados</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

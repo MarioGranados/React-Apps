@@ -1,8 +1,8 @@
 
 function Portfolio() {
     return (
-        <div className="jumbotron">
-                <div className="container">
+        <div className="jumbotron light_bg">
+                <div className="container" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                     <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
@@ -11,8 +11,8 @@ function Portfolio() {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active" >
-                                <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..." data-aos="fade-left"/>
-                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block trans_bg text-dark">
                                     <h5>Coffee Project</h5>
                                     <p>This Web Application filters through a list of coffees, and can modify the list using
                                         the
@@ -21,14 +21,14 @@ function Portfolio() {
                             </div>
                             <div className="carousel-item">
                                 <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                <div className="carousel-caption d-none d-md-block trans_bg text-dark">
                                     <h5>Konami Code</h5>
                                     <p>You enter a code in a specific sequence to unlock a fake website.</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src='https://picsum.photos/200/100' className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block bg_opacity text-dark">
+                                <div className="carousel-caption d-none d-md-block trans_bg text-dark">
                                     <h5>Web Application</h5>
                                     <p>A web application that recieves weather data of any desired location by using Mapbox
                                         API,

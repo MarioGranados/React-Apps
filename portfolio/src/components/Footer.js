@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <div className="bg-dark text-white">
+            <div className="space_bg text-white">
                 <div className="container">
                     <div className="row p-5">
                         <div className="col" data-aos="fade-up">

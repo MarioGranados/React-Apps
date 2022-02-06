@@ -3,13 +3,15 @@ import Chart from 'react-google-charts'
 
 const pieData = [
     ['Programming', 'Experience'],
-    ['JavaScript', 11],
+    ['JavaScript', 10],
     ['C++', 2],
     ['Java', 4],
     ['MySQL', 4],
+    ['HTML', 10],
+    ['CSS', 10]
 ]
 const pieOptions = {
-    title: 'My Daily Activities',
+    title: 'Web Development Experience',
     pieHole: 0.4,
 }
 function PieChart() {
@@ -17,8 +19,8 @@ function PieChart() {
             <div>
                 <h2 className={'display-4'}>Experience</h2>
                 <Chart
-                    width={'600px'}
-                    height={'320px'}
+                    width={'100%'}
+                    height={'50vh'}
                     chartType="PieChart"
                     loader={<div>Loading...</div>}
                     data={pieData}

@@ -1,0 +1,24 @@
+:root {
+    --red-bg: rgba(255, 90, 95, 0.55);
+    --green-bg: #087E8B;
+    --background-lg: #C1CAD6;
+    --blue-bg: #2E294E;
+    --space-bg: #1D1E2C;
+}
+.red_bg {
+    background-color: var(--red-bg);
+}
+.green_bg {
+    background-color: var(--green-bg);
+}
+.light_bg {
+    background-color: var(--background-lg);
+
+}
+.blue_bg {
+    background-color: var(--blue-bg);
+}
+
+.space_bg {
+    background-color: var(--space-bg);
+}

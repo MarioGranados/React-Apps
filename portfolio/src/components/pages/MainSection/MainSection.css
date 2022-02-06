@@ -1,6 +1,22 @@
 .bg_image {
-    background-image: linear-gradient(rgba(16, 40, 102, 0.9), rgba(144, 26, 26, 0.39)), url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
+    background-image: linear-gradient(rgba(16, 40, 102, 0.9), rgba(255, 90, 95, 0.57)), url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
     /*            background-image: url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");*/
     width: 100%;
-    height: 100vh;
+    padding: 25vh;
+}
+
+.glass-background {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 53, 0.28);
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(8, 126, 139, 0.13), rgba(8, 126, 139, 0.18));
+    width: 80%;
+    margin: auto;
+}
+
+.trans_bg {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 1, 0.28);
+    border-radius: 20px;
+    background-image: linear-gradient(var(--red-bg), var(--red-bg));
+    width: 80%;
+    margin: auto;
 }
