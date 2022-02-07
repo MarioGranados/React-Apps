@@ -52,7 +52,7 @@ function Hero({lgBackground, title, contentText, picture, img, alt, left, table}
         <>
             <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0"}>
                 <div className="my-0">
-                    <div className="row">
+                    <div className="row ">
                         {contentLeft(left)}
                     </div>
                 </div>
