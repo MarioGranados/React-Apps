@@ -9,9 +9,9 @@ function Footer() {
                         <div className="col" data-aos="fade-up">
                             <div className="display-4 red-text">Mario Granados</div>
                             <div className="text-muted">Full-Stack Developer</div>
-                            <div className="lead">
-                                Mario.Alberto.Granados1@Gmail.com
-                            </div>
+                            <p className="lead">
+                                
+                            </p>
                             <div className="display-4 red-text">Follow Me!</div>
                             <div className="d-flex justify-content-between w-50">
                                 <div className="text-muted">Github</div>

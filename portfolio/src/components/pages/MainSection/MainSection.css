@@ -2,15 +2,13 @@
     background-image: linear-gradient(rgba(16, 40, 102, 0.9), rgba(255, 90, 95, 0.57)), url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
     /*            background-image: url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");*/
     width: 100%;
-    padding: 25vh;
 }
 
 .glass-background {
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 53, 0.28);
+    /*box-shadow: 12px 12px 2px 1px rgba(0, 0, 53, 0.28);*/
     border-radius: 20px;
     background-image: linear-gradient(rgba(8, 126, 139, 0.13), rgba(8, 126, 139, 0.18));
-    width: 80%;
-    margin: auto;
+    padding: 0;
 }
 
 .trans_bg {

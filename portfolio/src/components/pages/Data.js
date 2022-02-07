@@ -27,7 +27,7 @@ export const thirdObj = {
     picture: true,
     img: "https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif",
     alt: 'random image',
-    left: false,
+    left: true,
     table: ''
 }
 //lgBackground, title, contentText, picture, img, alt, left, table

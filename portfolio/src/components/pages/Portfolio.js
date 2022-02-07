@@ -1,7 +1,8 @@
 
 function Portfolio() {
     return (
-        <div className="jumbotron light_bg mb-0">
+        <>
+            <div className="jumbotron light_bg mb-0">
                 <div className="container" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                     <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
@@ -48,7 +49,9 @@ function Portfolio() {
                         </button>
                     </div>
                 </div>
-        </div>
+            </div>
+        </>
+
 
     );
 }
