@@ -4,12 +4,12 @@ function MainSection() {
     return (
         <>
                 <div className='bg_image'>
-                    <div className="container" data-aos="flip-up" data-aos-duration="1000" data-aos-once="false" data-aos-mirror="true">
-                        <div className="text-center mx-auto my-auto">
+                    <div className="container padding_x" data-aos="flip-up" data-aos-duration="1000" data-aos-once="false" data-aos-mirror="true">
+                        <div className="text-center mx-auto">
                             <h4 className="red-text" data-aos="zoom-out" data-aos-duration="2000"
                                 data-aos-once="false" data-aos-mirror="true">Full-Stack Developer
                             </h4>
-                            <p className="lead text-white" data-aos="zoom-in" data-aos-duration="3000"
+                            <p className="text-white" data-aos="zoom-in" data-aos-duration="3000"
                                data-aos-once="false"
                                data-aos-mirror="true">
                                 Hello! My name is Mario Granados. I am a professional Web Developer with expert

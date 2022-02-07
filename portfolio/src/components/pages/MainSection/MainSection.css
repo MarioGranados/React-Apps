@@ -2,7 +2,6 @@
     background-image: linear-gradient(rgba(16, 40, 102, 0.9), rgba(255, 90, 95, 0.57)), url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
     /*            background-image: url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");*/
     width: 100%;
-    padding: 40vh;
 }
 
 .trans_bg {
@@ -19,7 +18,7 @@
 
 @media screen and (max-width: 320px){
     .bg_image {
-        padding: 5px 2px;
+        padding: 5px 10px;
     }
     .bg_image .lead {
         font-size: 15px;

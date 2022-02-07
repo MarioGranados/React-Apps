@@ -22,8 +22,8 @@ function Hero({lgBackground, title, contentText, picture, img, alt, left, table}
                 <>
                     <div className='col-lg' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
                          data-aos-mirror="true">
-                        <div className={'display-4 red-text text-md-center'}>{title}</div>
-                        <div className={'text-left text-md-center'}>{contentText}</div>
+                        <h4 className={'red-text text-center'}>{title}</h4>
+                        <div className={'text-center'}>{contentText}</div>
                     </div>
                     <div className="col-lg" data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
                          data-aos-mirror="true">
@@ -40,8 +40,8 @@ function Hero({lgBackground, title, contentText, picture, img, alt, left, table}
                     </div>
                     <div className='col' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
                          data-aos-mirror="true">
-                        <div className={'display-4 red-text'}>{title}</div>
-                        <div className={'text-left'}>{contentText}</div>
+                        <h4 className={'red-text text-center'}>{title}</h4>
+                        <div className={'text-center'}>{contentText}</div>
                     </div>
                 </>
             )
@@ -50,9 +50,9 @@ function Hero({lgBackground, title, contentText, picture, img, alt, left, table}
 
     return (
         <>
-            <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0"}>
-                <div className="my-0 py-5">
-                    <div className="row ">
+            <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0"} id={'hero'}>
+                <div className="my-0">
+                    <div className="row padding_x">
                         {contentLeft(left)}
                     </div>
                 </div>
