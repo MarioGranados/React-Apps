@@ -3,7 +3,7 @@
 .curtain_left , .curtain_right{
     z-index: 9999;
     position: absolute;
-    height: 100vh;
+    height: 200vh;
 }
 
 .curtain_left {

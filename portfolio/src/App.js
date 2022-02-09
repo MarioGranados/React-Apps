@@ -6,6 +6,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import Curtains from "./components/Curtains/Curtains";
 
+
 function App() {
     Aos.init();
     return (
