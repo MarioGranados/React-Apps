@@ -1,64 +1,14 @@
-import './Hero.css';
+import MainSection from "./pages/MainSection/MainSection";
 
-let heightAndWidth = {
-    height: '50%',
-    width: '100%',
-    margin: 'auto',
-    borderRadius: '50px'
-}
-
-function Hero({lgBackground, title, contentText, picture, img, alt, left, table}) {
-    function hasImg(picture) {
-        if (picture) {
-            return (<div className='container'><img src={img} style={heightAndWidth} alt={alt}/></div>)
-        } else {
-            return (<div className='container' id='chart1'>{table}</div>)
-        }
-    }
-
-    function contentLeft(left) {
-        if (left) {
-            return (
-                <>
-                    <div className='col-lg' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
-                         data-aos-mirror="true">
-                        <h4 className={'red-text text-center'}>{title}</h4>
-                        <div className={'text-center'}>{contentText}</div>
-                    </div>
-                    <div className="col-lg" data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
-                         data-aos-mirror="true">
-                        {hasImg(picture)}
-                    </div>
-                </>
-            )
-        } else {
-            return (
-                <>
-                    <div className="col" data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
-                         data-aos-mirror="true">
-                        {hasImg(picture)}
-                    </div>
-                    <div className='col' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
-                         data-aos-mirror="true">
-                        <h4 className={'red-text text-center'}>{title}</h4>
-                        <div className={'text-center'}>{contentText}</div>
-                    </div>
-                </>
-            )
-        }
-    }
-
+function Hero() {
     return (
         <>
-            <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0"} id={'hero'}>
-                <div className="my-0">
-                    <div className="row padding_x">
-                        {contentLeft(left)}
-                    </div>
+            <div className="container-fluid vh-100 justify-content-center align-content-center d-flex">
+                <div className="jumbotron-fluid justify-content-center align-content-center align-items-center d-flex">
+                    <MainSection/>
                 </div>
             </div>
         </>
     );
 }
-
 export default Hero;

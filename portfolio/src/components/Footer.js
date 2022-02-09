@@ -24,34 +24,34 @@ function Footer() {
                             <form>
                                 <div className="form-row">
                                     <div className="form-group col-md-6 border-color-red">
-                                        <label for="firstName">First Name</label>
+                                        <label htmlFor="firstName">First Name</label>
                                         <input type="text" className="form-control bg-transparent text-white" id="firstName"
                                                placeholder="John"/>
                                     </div>
                                     <div className="form-group col-md-6 border-color-red">
-                                        <label for="lastName">Last Name</label>
+                                        <label htmlFor="lastName">Last Name</label>
                                         <input type="text" className="form-control bg-transparent text-white" id="lastName"
                                                placeholder="Smith"/>
                                     </div>
                                 </div>
                                 <div className="form-group border-color-red">
-                                    <label for="phoneNumber">Phone Number</label>
+                                    <label htmlFor="phoneNumber">Phone Number</label>
                                     <input type="tel" className="form-control bg-transparent text-white" id="phoneNumber"
                                            placeholder="000 000 0000"/>
                                 </div>
                                 <div className="form-group border-color-red">
-                                    <label for="email">Email</label>
+                                    <label htmlFor="email">Email</label>
                                     <input type="email" className="form-control bg-transparent text-white" id="email"
                                            placeholder="example@email.com"/>
                                 </div>
                                 <div className="form-group border-color-red">
-                                    <label for="message">Message</label>
+                                    <label htmlFor="message">Message</label>
                                     <textarea className="form-control bg-transparent text-white" id="message" rows="3">Hi, I love your work! Please contact me as soon as possible!</textarea>
                                 </div>
                                 <div className="form-group border-color-red">
                                     <div className="form-check">
                                         <input className="form-check-input" type="checkbox" id="gridCheck"/>
-                                        <label className="form-check-label" for="gridCheck">
+                                        <label className="form-check-label" htmlFor="gridCheck">
                                             Subscribe
                                         </label>
                                     </div>

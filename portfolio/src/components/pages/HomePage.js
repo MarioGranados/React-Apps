@@ -1,18 +1,18 @@
 import React from 'react';
-import Hero from '.././Hero.js';
+import Content from '../Content.js';
 import Portfolio from "./Portfolio";
 import {firstObj, secObj, thirdObj} from './Data'
-import MainSection from "./MainSection/MainSection";
 import '../styles.css'
+import Hero from "../Hero";
 function HomePage() {
     return (
         <>
-            <MainSection />
-            <Hero {...firstObj} />
+            <Hero/>
+            <Content {...firstObj} />
             <Portfolio/>
-            <Hero {...secObj} />
+            <Content {...secObj} />
             {/*something else here*/}
-            <Hero {...thirdObj} />
+            <Content {...thirdObj} />
             <footer/>
         </>
     )
