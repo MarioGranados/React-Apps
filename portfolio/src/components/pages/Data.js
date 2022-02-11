@@ -1,4 +1,4 @@
-import Pie from "./Pie";
+import Pie from "../Pie";
 
 export const firstObj = {
     lgBackground: false,

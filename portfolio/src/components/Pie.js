@@ -2,17 +2,18 @@ import React, { Component } from 'react'
 import Chart from 'react-google-charts'
 
 const pieData = [
-    ['Programming', 'Experience'],
-    ['JavaScript', 10],
-    ['C++', 2],
-    ['Java', 4],
-    ['MySQL', 4],
-    ['HTML', 10],
-    ['CSS', 10]
+    ['Programming', 'level'],
+    ['JavaScript', 100],
+    ['C++', 30],
+    ['Java', 20],
+    ['MySQL', 10],
+    ['HTML', 100],
+    ['CSS', 100]
 ]
 const pieOptions = {
     title: 'Web Development Experience',
     pieHole: 0.4,
+    bars: 'horizontal'
 }
 function PieChart() {
         return (
@@ -21,7 +22,7 @@ function PieChart() {
                 <Chart
                     width={'100%'}
                     height={'50vh'}
-                    chartType="PieChart"
+                    chartType="Bar"
                     loader={<div>Loading...</div>}
                     data={pieData}
                     options={pieOptions}

@@ -7,12 +7,16 @@ let heightAndWidth = {
     borderRadius: '50px'
 }
 
+let borderRadius = {
+    borderRadius: '50px'
+}
+
 function Content({lgBackground, title, contentText, picture, img, alt, left, table}) {
     function hasImg(picture) {
         if (picture) {
             return (<div className='container'><img src={img} style={heightAndWidth} alt={alt}/></div>)
         } else {
-            return (<div className='container' id='chart1'>{table}</div>)
+            return (<div className='container' style={borderRadius} id='chart1'>{table}</div>)
         }
     }
 
