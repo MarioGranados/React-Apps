@@ -21,7 +21,7 @@ function Portfolio() {
                                     <p>This Web Application filters through a list of coffees which you can edit, add, or delete any coffee roast within the list using
                                         the
                                         DOM's Local Storage.</p>
-                                    <a href='https://mariogranados.github.io/Coffee-ProjectV2/' target="_blank" rel="noopener noreferrer"><button className='btn btn-secondary'>Open Full Project</button></a>
+                                    <a href='https://mariogranados.github.io/Coffee-ProjectV2/' target="_blank" rel="noopener noreferrer" className='text-decoration-none'><button className='btn btn-secondary'>Open Full Project</button></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
@@ -29,7 +29,7 @@ function Portfolio() {
                                 <div className="carousel-caption d-none d-md-block text-white blue_bg">
                                     <h5>Konami Code</h5>
                                     <p>You enter the Konami code in a specific sequence to unlock a fake website.</p>
-                                    <a href='https://mariogranados.github.io/codeup-web-exercises/' target="_blank" rel="noopener noreferrer"><button className='btn btn-secondary'>Open Full Project</button></a>
+                                    <a href='https://mariogranados.github.io/codeup-web-exercises/' target="_blank" rel="noopener noreferrer" className='text-decoration-none'><button className='btn btn-secondary'>Open Full Project</button></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
@@ -39,7 +39,7 @@ function Portfolio() {
                                     <p>A web application that requests real-time weather data of any desired location by using Mapbox
                                         API,
                                         and WeatherMap API.</p>
-                                    <a href='https://mariogranados.github.io/weather-map-app/' target="_blank" rel="noopener noreferrer"><button className='btn btn-secondary'>Open Full Project</button></a>
+                                    <a href='https://mariogranados.github.io/weather-map-app/' target="_blank" rel="noopener noreferrer" className='text-decoration-none'><button className='btn btn-secondary'>Open Full Project</button></a>
                                 </div>
                             </div>
                         </div>

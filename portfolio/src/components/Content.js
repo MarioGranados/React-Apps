@@ -16,13 +16,13 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
     function buttonLogic() {
         switch (btnText) {
             case 'Portfolio':
-                return (<Link to={'/Portfolio'}>{btnText}</Link>);
+                return (<Link to={'/Portfolio'} className='text-decoration-none text-white'>{btnText}</Link>);
             case 'Contact':
-                return (<Link to={'/Footer'}>{btnText}</Link>);
+                return (<Link to={'/Footer'} className='text-decoration-none text-white'>{btnText}</Link>);
             case 'Download Resume':
-                return (<Link to={'/'}>{btnText}</Link>);
+                return (<Link to={'/'} className='text-decoration-none text-white'>{btnText}</Link>);
             case 'Linked In':
-                return (<a href='/https://www.linkedin.com/in/mario-granados-18a21b186/' target="_blank" rel="noopener noreferrer">{btnText}</a>)
+                return (<a href='/https://www.linkedin.com/in/mario-granados-18a21b186/' target="_blank" rel="noopener noreferrer" className='text-decoration-none text-white'>{btnText}</a>)
         }
     }
 
@@ -41,10 +41,10 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
                 <>
                     <div className='col-lg' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
                          data-aos-mirror="true">
-                        <h4 className={'red-text text-center mb-1'}>{title}</h4>
-                        <div className={'text-center mb-1'}>{contentText}</div>
+                        <h4 className={'red-text text-center mb-1 display-4'}>{title}</h4>
+                        <div className={'text-center mb-1 text'}>{contentText}</div>
                         <div className="justify-content-center d-flex">
-                            <button className={lgBackground ? 'btn btn-primary mt-3' : "btn btn-outline-light mt-3"}>{buttonLogic(btnText)}</button>
+                            <button className={lgBackground ? 'btn btn-primary mt-3 text-white text-decoration-none' : "btn btn-outline-primary mt-3 text-white text-decoration-none"}>{buttonLogic(btnText)}</button>
                         </div>
                     </div>
                     <div className="col-lg" data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
@@ -62,10 +62,10 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
                     </div>
                     <div className='col-lg' data-aos={'fade-up'} data-aos-duration="2000" data-aos-once="false"
                          data-aos-mirror="true">
-                        <h4 className={'red-text text-center mb-1'}>{title}</h4>
-                        <div className={'text-center mb-1'}>{contentText}</div>
+                        <h4 className={'red-text text-center mb-1 display-4'}>{title}</h4>
+                        <div className={'text-center mb-1 text'}>{contentText}</div>
                         <div className="justify-content-center d-flex">
-                            <button className={lgBackground ? 'btn btn-primary mt-3' : "btn btn-outline-light mt-3"}>{buttonLogic(btnText)}</button>
+                            <button className={lgBackground ? 'btn btn-primary mt-3 text-decoration-none text-white' : "btn btn-outline-primary mt-3 text-decoration-none text-white"}>{buttonLogic(btnText)}</button>
                         </div>
                     </div>
                 </>

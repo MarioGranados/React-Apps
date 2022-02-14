@@ -19,7 +19,7 @@ function Footer() {
                     <div className="row p-5">
                         <div className="col" data-aos="fade-up">
                             <div className="display-4 red-text">Mario Granados</div>
-                            <div className="text-muted">Full-Stack Developer</div>
+                            <div className="text-muted ">Full-Stack Developer</div>
                             <p className="lead">
                                 
                             </p>

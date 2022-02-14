@@ -2,7 +2,7 @@ import Pie from "../Pie";
 
 export const firstObj = {
     lgBackground: false,
-    title: 'Experience',
+    title: 'Web-Dev',
     contentText: "Programming is my passion, I like to create dynamic user experiences through my sites using: HTML, CSS, JS, React, Bootstrap, and Java",
     picture: false,
     img: "#",

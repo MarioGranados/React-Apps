@@ -7,8 +7,17 @@
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+
 }
+p {
+    font-size: 25px;
+}
+
+.text {
+    font-size: 25px;
+}
+
 
 
 .red_bg {
