@@ -3,15 +3,16 @@
 .curtain_left , .curtain_right{
     z-index: 9999;
     position: absolute;
-    height: 200vh;
+    height: 150vh;
+    width: 100%;
 }
 
-.curtain_left {
+.curtain_left.active {
     animation-duration: 3s;
     animation-name: slide_left;
 }
 
-.curtain_right {
+.curtain_right.active {
     animation-duration: 3s;
     animation-name: slide_right;
 }
