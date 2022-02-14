@@ -11,9 +11,9 @@ function Navbar() {
             <div className="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link to="/" className="nav-link active">Home <span className="sr-only">(current)</span></Link>
-                    <Link to="/Resume" className="nav-link" href="#">Resume</Link>
                     <Link to='/Portfolio' className="nav-link" href="#">Portfolio</Link>
                     <Link to='/Footer' className='nav-link'>Contact</Link>
+                    <Link to="/About" className="nav-link" href="#">About Me</Link>
                 </div>
             </div>
         </nav>
