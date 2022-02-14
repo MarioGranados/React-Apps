@@ -31,21 +31,21 @@ export const thirdObj = {
     alt: 'random image',
     left: true,
     table: '',
-    btnText: 'Download Resume'
+    btnText: 'Linked In'
 }
 //lgBackground, title, contentText, picture, img, alt, left, table
 export const AboutMe = {
     lgBackground: false,
     title: "About Me",
-    contentText: "I'm actually a music geek, who can play various instruments so I'm always looking to 'jamn' with other artists.  " +
-        "I primarily play guitar with inspirations from John Mayer, BB-King, Jimi Hendrix, Stevie Ray Vaughn and Jimmy Page. " +
-        "I could talk your ears-off about music equipment and music theory " +
-        "I also served 4 years in the Navy as an Interior Communications Electrician." +
-        "Then one day, I decided that I wanted to create my own music software, and discovered a new passion; programming",
+    contentText: ["I'm actually a music geek, who can play various instruments so I'm always looking to 'jamn' with other artists.", <br/>,
+        "I primarily play guitar with inspirations from John Mayer, BB-King, Jimi Hendrix, Stevie Ray Vaughn and Jimmy Page.",
+        "I could talk your ears-off about music equipment and music theory", <br/>,
+        "I also served 4 years in the Navy as an Interior Communications Electrician.",
+        "Then one day, I decided that I wanted to create my own music software, and discovered a new passion; programming"],
     picture: true,
     img: "https://64.media.tumblr.com/675eea521c879d513ceef853df455e5f/tumblr_n8e5zz9bID1qcung4o1_1280.gifv",
     alt: 'random image',
-    left: false,
+    left: null,
     table: '',
-    btnText: 'Linked In'
+    btnText: 'Contact'
 }

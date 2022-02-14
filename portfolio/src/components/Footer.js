@@ -25,9 +25,9 @@ function Footer() {
                             </p>
                             <div className="display-4 red-text">Follow Me!</div>
                             <div className="d-flex justify-content-between w-50">
-                                <div className="text-muted">Github</div>
-                                <div className="text-muted">LinkedIn</div>
-                                <div className="text-muted">Instagram</div>
+                                <div className="text-muted"><a href='https://github.com/MarioGranados' className='text-decoration-none green-text'>Github</a></div>
+                                <div className="text-muted"><a href='https://www.linkedin.com/in/mario-granados-18a21b186/' className='text-decoration-none green-text'>LinkedIn</a></div>
+                                <div className="text-muted"><a href='https://www.instagram.com/mariogranados97/' className='text-decoration-none green-text'>Instagram</a></div>
                             </div>
 
                         </div>
