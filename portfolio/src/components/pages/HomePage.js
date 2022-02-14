@@ -3,17 +3,19 @@ import Content from '../Content.js';
 import Portfolio from "./Portfolio";
 import {firstObj, secObj, thirdObj} from './Data'
 import '../styles.css'
-import MainSection from "./MainSection/MainSection";
+import Hero from "../Hero";
+import Footer from "../Footer";
+
 function HomePage() {
     return (
         <>
-            <MainSection/>
+            <Hero/>
             <Content {...firstObj} />
             <Portfolio/>
             <Content {...secObj} />
             {/*something else here*/}
             <Content {...thirdObj} />
-            <footer/>
+            <Footer/>
         </>
     )
 }

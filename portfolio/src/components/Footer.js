@@ -4,7 +4,6 @@ function Footer() {
     function handleSubmit(e) {
         e.preventDefault()
         let name = firstName + ' ' + lastName;
-        console.log(name)
     }
 
     const [firstName, setFirstName] = useState('');

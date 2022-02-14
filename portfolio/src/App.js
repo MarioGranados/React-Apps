@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import HomePage from "./components/pages/HomePage";
 import Aos from "aos";
 import 'aos/dist/aos.css';
-import Curtains from "./components/Curtains/Curtains";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Portfolio from "./components/pages/Portfolio";
 
@@ -12,7 +11,6 @@ function App() {
     Aos.init();
     return (
         <Router>
-            <Curtains/>
             <Navbar />
 {                <Switch>
                     <Route exact path="/">
