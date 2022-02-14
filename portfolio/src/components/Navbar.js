@@ -13,7 +13,7 @@ function Navbar() {
                     <Link to="/" className="nav-link active">Home <span className="sr-only">(current)</span></Link>
                     <Link to='/Portfolio' className="nav-link" href="#">Portfolio</Link>
                     <Link to='/Footer' className='nav-link'>Contact</Link>
-                    <Link to="/About" className="nav-link" href="#">About Me</Link>
+                    <Link to="/AboutMe" className="nav-link" href="#">About Me</Link>
                 </div>
             </div>
         </nav>

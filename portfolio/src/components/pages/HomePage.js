@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from '../Content.js';
 import Portfolio from "./Portfolio";
-import {firstObj, secObj, thirdObj} from './Data'
+import {firstObj, secObj, thirdObj, AboutMe} from './Data'
 import '../styles.css'
 import Hero from "../Hero";
 import Footer from "../Footer";
@@ -13,8 +13,8 @@ function HomePage() {
             <Content {...firstObj} />
             <Portfolio/>
             <Content {...secObj} />
-            {/*something else here*/}
-            <Content {...thirdObj} />
+            <Content {...thirdObj}/>
+            <Content {...AboutMe} />
             <Footer/>
         </>
     )

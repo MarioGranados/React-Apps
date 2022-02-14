@@ -2,8 +2,8 @@ import Pie from "../Pie";
 
 export const firstObj = {
     lgBackground: false,
-    title: 'Who am I?',
-    contentText: "I'm a Web-Developer from in San Antonio Texas. I have a Passion for creating Dynamic user experiences through my applications",
+    title: 'Experience',
+    contentText: "Programming is my passion, I like to create dynamic user experiences through my sites using: HTML, CSS, JS, React, Bootstrap, and Java",
     picture: false,
     img: "#",
     alt: 'random image',
@@ -25,7 +25,7 @@ export const secObj = {
 export const thirdObj = {
     lgBackground: true,
     title: "Looking to hire?",
-    contentText: "Programming is my passion! If you want to pay me for it; you're doing me a favor",
+    contentText: "Programming is my passion! If you want to pay me for it; shoot me an email as soon as possible",
     picture: true,
     img: "https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif",
     alt: 'random image',
@@ -34,3 +34,18 @@ export const thirdObj = {
     btnText: 'Download Resume'
 }
 //lgBackground, title, contentText, picture, img, alt, left, table
+export const AboutMe = {
+    lgBackground: false,
+    title: "About Me",
+    contentText: "I'm actually a music geek, who can play various instruments so I'm always looking to 'jamn' with other artists.  " +
+        "I primarily play guitar with inspirations from John Mayer, BB-King, Jimi Hendrix, Stevie Ray Vaughn and Jimmy Page. " +
+        "I could talk your ears-off about music equipment and music theory " +
+        "I also served 4 years in the Navy as an Interior Communications Electrician." +
+        "Then one day, I decided that I wanted to create my own music software, and discovered a new passion; programming",
+    picture: true,
+    img: "https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif",
+    alt: 'random image',
+    left: false,
+    table: '',
+    btnText: 'Linked In'
+}

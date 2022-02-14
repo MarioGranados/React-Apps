@@ -6,6 +6,8 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Portfolio from "./components/pages/Portfolio";
+import Content from "./components/Content";
+import {thirdObj} from "./components/pages/Data";
 
 function App() {
     Aos.init();
@@ -21,6 +23,9 @@ function App() {
                     </Route>
                     <Route exact path='/Footer'>
                         <Footer/>
+                    </Route>
+                    <Route exact path='/AboutMe'>
+                        <Content {...thirdObj}/>
                     </Route>
                 </Switch>}
         </Router>
