@@ -43,7 +43,7 @@ export const AboutMe = {
         "I also served 4 years in the Navy as an Interior Communications Electrician." +
         "Then one day, I decided that I wanted to create my own music software, and discovered a new passion; programming",
     picture: true,
-    img: "https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif",
+    img: "https://64.media.tumblr.com/675eea521c879d513ceef853df455e5f/tumblr_n8e5zz9bID1qcung4o1_1280.gifv",
     alt: 'random image',
     left: false,
     table: '',

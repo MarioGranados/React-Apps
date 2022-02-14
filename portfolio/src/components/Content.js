@@ -21,6 +21,8 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
                 return (<Link to={'/Footer'}>{btnText}</Link>);
             case 'Download Resume':
                 return (<Link to={'/'}>{btnText}</Link>);
+            case 'Linked In':
+                return (<a href={'/https://www.linkedin.com/in/mario-granados-18a21b186/'}>{btnText}</a>)
         }
     }
 
