@@ -1,4 +1,6 @@
-
+import CoffeeProject from '../../img/CoffeeProject.png'
+import Konami from '../../img/Konami.png';
+import WeatherMap from '../../img/WeatherApp.png'
 function Portfolio() {
     return (
         <>
@@ -13,8 +15,8 @@ function Portfolio() {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active" >
-                                <img src='../../../public/CoffeeProject.png' className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block text-dark">
+                                <img src={CoffeeProject} className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block text-white bg-info">
                                     <h5>Coffee Project</h5>
                                     <p>This Web Application filters through a list of coffees, and can modify the list using
                                         the
@@ -22,15 +24,15 @@ function Portfolio() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src='../../../public/Konami.png' className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block text-dark">
+                                <img src={Konami} className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block text-white bg-info">
                                     <h5>Konami Code</h5>
                                     <p>You enter a code in a specific sequence to unlock a fake website.</p>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src='../../../public/WeatherApp.png' className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block text-dark">
+                                <img src={WeatherMap} className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block text-white bg-info">
                                     <h5>Web Application</h5>
                                     <p>A web application that recieves weather data of any desired location by using Mapbox
                                         API,
@@ -38,12 +40,12 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                        <button className="carousel-control-prev bg-dark" type="button" data-target="#carouselExampleCaptions"
                                 data-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="sr-only">Previous</span>
                         </button>
-                        <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                        <button className="carousel-control-next bg-dark" type="button" data-target="#carouselExampleCaptions"
                                 data-slide="next">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="sr-only">Next</span>
