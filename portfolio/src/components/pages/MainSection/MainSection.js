@@ -1,6 +1,7 @@
 import './MainSection.css'
 
 function MainSection() {
+
     return (
         <>
             <div className="container-fluid">

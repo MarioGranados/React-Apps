@@ -1,6 +1,18 @@
-import React from "react";
-
+import React, {useState} from "react";
 function Footer() {
+
+    function handleSubmit(e) {
+        e.preventDefault()
+        let name = firstName + ' ' + lastName;
+        console.log(name)
+    }
+
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [phoneNum, setPhoneNum] = useState('');
+    const [email, setEmail] = useState('')
+    const [messageText, setMessage] = useState('Hi, I love your work! Please contact me as soon as possible!');
+
     return (
         <footer>
             <div className="space_bg text-white">
@@ -21,32 +33,34 @@ function Footer() {
 
                         </div>
                         <div className="col" data-aos="fade-up">
-                            <form>
+                            <form onSubmit={handleSubmit}>
                                 <div className="form-row">
                                     <div className="form-group col-md-6 border-color-red">
                                         <label htmlFor="firstName">First Name</label>
                                         <input type="text" className="form-control bg-transparent text-white" id="firstName"
-                                               placeholder="John"/>
+                                               placeholder="John" value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
                                     </div>
                                     <div className="form-group col-md-6 border-color-red">
                                         <label htmlFor="lastName">Last Name</label>
                                         <input type="text" className="form-control bg-transparent text-white" id="lastName"
-                                               placeholder="Smith"/>
+                                               placeholder="Smith" value={lastName} onChange={e => setLastName(e.target.value)}/>
                                     </div>
                                 </div>
                                 <div className="form-group border-color-red">
                                     <label htmlFor="phoneNumber">Phone Number</label>
                                     <input type="tel" className="form-control bg-transparent text-white" id="phoneNumber"
-                                           placeholder="000 000 0000"/>
+                                           placeholder="000 000 0000" value={phoneNum} onChange={e => setPhoneNum(e.target.value)}/>
                                 </div>
                                 <div className="form-group border-color-red">
                                     <label htmlFor="email">Email</label>
                                     <input type="email" className="form-control bg-transparent text-white" id="email"
-                                           placeholder="example@email.com"/>
+                                           placeholder="example@email.com" value={email} onChange={e => setEmail(e.target.value)}/>
                                 </div>
                                 <div className="form-group border-color-red">
                                     <label htmlFor="message">Message</label>
-                                    <textarea className="form-control bg-transparent text-white" id="message" rows="3">Hi, I love your work! Please contact me as soon as possible!</textarea>
+                                    <textarea className="form-control bg-transparent text-white" id="message" rows="3" value={messageText} onChange={e => setMessage(e.target.value)}>
+
+                                    </textarea>
                                 </div>
                                 <div className="form-group border-color-red">
                                     <div className="form-check">
@@ -56,7 +70,7 @@ function Footer() {
                                         </label>
                                     </div>
                                 </div>
-                                <button type="submit" className="btn btn-outline-light border-color-red">Send Message</button>
+                                <button type="submit" className="btn btn-outline-light border-color-red" value={'Submit'}>Send Message</button>
                             </form>
                         </div>
                     </div>

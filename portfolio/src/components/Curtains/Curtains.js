@@ -1,5 +1,16 @@
 import './Curtains.css'
+import React, {useState} from "react";
+
 function Curtains() {
+    const [scroll, setScroll] = useState(false);
+    const curtainEffect = () => {
+        if(window.scrollY >= 500) {
+            setScroll(true)
+        } else {
+            setScroll(false);
+        }
+    }
+    window.addEventListener('scroll', curtainEffect)
     return (
         <>
             <div className='vh-100 bg-dark align-items-center d-flex justify-content-center'>
@@ -8,9 +19,9 @@ function Curtains() {
                     <p className={'text-lead text-center green-text'}>Scroll Down</p>
                 </div>
             </div>
-            <div className='curtain_right bg-dark' data-aos='fade-in' data-aos-duration='1' data-aos-once={'false'}>
+            <div className={scroll ? 'curtain_left bg-dark' : ''}>
             </div>
-            <div className='curtain_left bg-dark' data-aos='fade-in' data-aos-duration='1' data-aos-once={'false'}>
+            <div className={scroll ? 'curtain_right bg-dark' : ''}>
             </div>
         </>
     )
