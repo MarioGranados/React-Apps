@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3d632b61.css",
+    "main.js": "/portfolio/static/js/main.4b8ee06c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Konami.png": "/portfolio/static/media/Konami.1f3578f318b82aa1774e.png",
+    "static/media/WeatherApp.png": "/portfolio/static/media/WeatherApp.5b40db51ab06a43deeb0.png",
+    "static/media/CoffeeProject.png": "/portfolio/static/media/CoffeeProject.edacd156f3a7100e008a.png",
+    "index.html": "/portfolio/index.html",
+    "main.3d632b61.css.map": "/portfolio/static/css/main.3d632b61.css.map",
+    "main.4b8ee06c.js.map": "/portfolio/static/js/main.4b8ee06c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d632b61.css",
+    "static/js/main.4b8ee06c.js"
+  ]
+}
