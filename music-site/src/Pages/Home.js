@@ -1,16 +1,18 @@
 const Home = () => {
     return (
         <>
-            <div className="jumbotron">
-                <h1 className="display-4">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                    attention to featured content or information.</p>
-                <hr className="my-4"/>
-                    <p>It uses utility classes for typography and spacing to space content out within the larger
-                        container.</p>
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <div className="jumbotron d-flex align-items-center justify-content-center">
+                <div>
+                    <h1 className="display-4 text-center">Some Name</h1>
+                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est libero quisquam reiciendis.</p>
+                    <hr className="my-4 text-center"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellendus.</p>
+                    <a className='justify-content-center d-flex text-decoration-none'>
+                        <button className="btn btn-primary btn-lg">Products</button>
+                    </a>
+                </div>
             </div>
-            <div className="container">
+            <div className="container py-5">
                 <h1 className="display-6 text-center">Deals!</h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col">

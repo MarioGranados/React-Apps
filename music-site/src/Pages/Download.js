@@ -4,16 +4,16 @@ const Download = () => {
     return(
         <>
             <CatNavbar/>
-            <form className="d-flex px-lg-2">
+            <form className="d-flex px-lg-2 py-4">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button className="btn btn-success  my-2 my-sm-0" type="submit">Search</button>
             </form>
 
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-6 text-center">Products</h1>
                 </div>
-                <div className="container">
+                <div className="container py-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
                             <div className="card h-100">
